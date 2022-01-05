@@ -20,7 +20,6 @@
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
-		<meta property="schema:accessibilityFeature">longDescription</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -42,37 +41,39 @@
 		<meta property="term" refines="#subject-3">sh2010116434</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008114942</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
-		</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">The theft of sports trophies from an English public school has unexpected implications on the lives of the school’s students and masters.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">In his first novel, &lt;a href="https://standardebooks.org/ebooks/p-g-wodehouse"&gt;P. G. Wodehouse&lt;/a&gt; offers a glimpse into the insular world of an English public school scandalized by a recent burglary of its prized sports trophies (“pots”) from its cricket pavilion. At first an overzealous master unjustly accuses one of the schoolboys, who just happens to be in need of cash to pay a gambling debt owed to his brother. But, thanks to a Scotland Yard inspector brought in especially for the case, the boy is cleared and his promising career among the elite is left intact. Along the way, Wodehouse gives snapshots of the everyday lives of various boys: from dealing with the idiosyncrasies of fellow students, to scoring birds’ eggs and sneaking a smoke in the nearby woods while avoiding capture by gamekeepers, to cranking out an underground magazine to raise needed funds. Through it all, the boys, along with their headmaster, handle things with wit and aplomb. Consistent with a worldview in which a man “should be before anything else a sportsman,” sporting contests also figure prominently: a boy rises from the canvas to score an unexpected knockout, and another graciously accepts his last-second defeat at the finish line. Filled with cultural references and slang dating from the early 20th century, parts of the novel may be somewhat obscure to modern readers. Explanations for most of these references and phrases can be found in the annotations provided at https://www.madameulalie.org/annots/pgwbooks/pgwtpot1.html.</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/6984</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.459554</dc:source>
+		<meta property="se:production-notes">Pages 210–211 are missing from the scanned book from the Internet Archive.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Pothunters</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/p-g-wodehouse_the-pothunters</meta>
 		<dc:creator id="author">P. G. Wodehouse</dc:creator>
 		<meta property="file-as" refines="#author">Wodehouse, P. G.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Pelham Grenville Wodehouse</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/P._G._Wodehouse</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78089036</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Willem Claesz Heda</dc:contributor>
+		<meta property="file-as" refines="#artist">Heda, Willem Claesz</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Willem_Claesz._Heda</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr95014294</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Suzanne L. Shell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne L.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Charles Franks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Franks, Charles</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">mrk</meta>
+		<dc:contributor id="producer-1">James Y. Huang</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Huang, James Y.</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
